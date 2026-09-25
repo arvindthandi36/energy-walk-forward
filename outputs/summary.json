@@ -1,0 +1,44 @@
+[
+  {
+    "market": "Brent",
+    "test_years": "1993-2025",
+    "folds": 33,
+    "oos_days": 7499,
+    "momentum_ann_return": -0.1303,
+    "bh_ann_return": 0.0424,
+    "momentum_ann_vol": 0.4187,
+    "bh_ann_vol": 0.4187,
+    "momentum_sharpe": -0.118,
+    "bh_sharpe": 0.31,
+    "momentum_max_dd": -0.9895,
+    "bh_max_dd": -0.9366,
+    "years_momentum_beat_bh": 11,
+    "mean_in_sample_sharpe_of_chosen": 0.215,
+    "mean_oos_sharpe_by_year": -0.084,
+    "sharpe_diff_ci95": [
+      -1.042,
+      0.176
+    ]
+  },
+  {
+    "market": "WTI",
+    "test_years": "1993-2025",
+    "folds": 33,
+    "oos_days": 7607,
+    "momentum_ann_return": -0.121,
+    "bh_ann_return": 0.0363,
+    "momentum_ann_vol": 0.4495,
+    "bh_ann_vol": 0.4494,
+    "momentum_sharpe": -0.053,
+    "bh_sharpe": 0.306,
+    "momentum_max_dd": -0.9857,
+    "bh_max_dd": -0.9387,
+    "years_momentum_beat_bh": 12,
+    "mean_in_sample_sharpe_of_chosen": 0.007,
+    "mean_oos_sharpe_by_year": -0.006,
+    "sharpe_diff_ci95": [
+      -0.835,
+      0.112
+    ]
+  }
+]
